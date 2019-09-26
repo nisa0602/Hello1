@@ -3,55 +3,53 @@
   /* width: 100%; */
 }
 html,
+body {
+  background-color: black ;
+  font-size: 18px;
+  margin: 0px;
+  line-height: 1;
+  color: gray
+}
 header {
-  text-align: center;
+  text-align: right;
   font-size: 20px;
-  padding: 20px 30px;
-  background-image: url('../img/hp.jpg');
+  padding: 100px 90px;
+  background-image: url('../img/gambar.jpg');
   background-size: cover;
 }
-h1 {
-  font-size: 60px;
-  color: white;
 
 }
-body {
-  background: #FFF;
-  font-size: 20px;
-  /* margin: 60px; */
-  line-height: 1;
-
+div {
+  height: 110px;
+  line-height: 100%;
+  position: relative;
+  margin: auto;
+  background-image: url('../img/hp1.jpg');
+  background-size: cover;
 }
-
 nav {
   width: 50%;
   display: inline-block;
-  text-align: right;
-  color: black;
+  text-align: end;
 }
-nav ul {
-  list-style: none;
-  margin: 0;
+a {
+  color:white;
 }
-nav ul li {
-  display: inline-block;
+ul {
+  padding: 20px;
+  background: rgba(0,0,0,0.5);
 }
-nav ul li a {
-  color: rgba (0 256 256 0);
-  text-decoration: none;
-  display: block;
-  padding: 10px 15px;
-  border-radius: 30px;
-  transition: 0.3s ease all;
+li {
+display: inline;
+padding: 0px 10px 0px 10px;
 }
-nav ul li a:hover {
-  background: #444;
-} 
+
 article {
   padding: 20px;
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 20px;
   text-align: left;
+
 }
 footer {
   background: #FFF;
@@ -59,10 +57,19 @@ footer {
   padding: 20px;
   text-align: left;
 }
-img {
-  size: cover;
 }
 h2 {
   text-align: justify;
 }
-  
+footer {
+background: #222;
+  color: #777;
+  padding: 40px;
+  text-align: center;
+}
+footer img   {
+  display: block;
+  border-radius: 5px;
+  width: 80px;
+  margin: 0 auto 10px;
+}
